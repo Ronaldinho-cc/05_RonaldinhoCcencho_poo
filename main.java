@@ -12,15 +12,23 @@ package ejercicio_2;
 public class main {
   public static void main(String[] args) {
     persona p1 = new persona();
-    
+    persona p2 = new persona();
+   
+    //sobrecarga de metofos
     p1.metodo1(17);
-    p1.metodo1("jose");
+    p1.metodo1("luis");
     
-    p1.nombre();
-    p1.años();
+    p2.metodo1("carlos");
+    p2.metodo1(18);
+    
+    //objetos
+    p1.caminar();
+    p1.hablar();
     
     // valore de retorno
-    p1.name();
+      System.out.println("lo que dice el texto "+p1.name());
+      System.out.println("mi edad es "+ p1.edad());
+      System.out.println("el boleaano es "+ p1.metodo3());
     
   }
 }

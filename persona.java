@@ -38,11 +38,11 @@ public class persona {
 
 
     //2 objetos
-    public void nombre(){
-        System.out.println("Jose");
+    public void caminar(){
+        System.out.println("camino");
     }
-    public void años(){
-        System.out.println(17);
+    public void hablar(){
+        System.out.println("hablo");
     }
     
 }
