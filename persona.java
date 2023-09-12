@@ -14,7 +14,7 @@ public class persona {
     String nombre;
     int edad; 
     
-    //sobrecarga metodos
+    //sobrecarga metodos y parametros y argumentos
     public void metodo1(String nombre){
         System.out.println("Mi nombre "+nombre);
     
@@ -34,9 +34,6 @@ public class persona {
     public boolean metodo3(){
     return true ;
     }
-    //2 metodos con parametros y argumentos 
-
-
     //2 objetos
     public void caminar(){
         System.out.println("camino");
