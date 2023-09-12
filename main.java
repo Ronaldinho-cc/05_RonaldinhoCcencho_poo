@@ -14,7 +14,7 @@ public class main {
     persona p1 = new persona();
     persona p2 = new persona();
    
-    //sobrecarga de metodos
+    //sobrecarga de metodos , parametros y argumentos
     p1.metodo1(17);
     p1.metodo1("luis");
     
